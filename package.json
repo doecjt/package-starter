@@ -10,7 +10,8 @@
     "dev": "tsc --watch",
     "lint": "eslint src --ext .js,.ts --cache",
     "build": "pnpm clean && tsc",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "prepare": "simple-git-hooks"
   },
   "publishConfig": {
     "access": "public"
@@ -27,6 +28,6 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "src/**/*.ts": "eslint"
+    "src/**/*": "eslint"
   }
 }
