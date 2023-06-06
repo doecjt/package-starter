@@ -23,5 +23,8 @@
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint"
+  },
+  "lint-staged": {
+    "*.ts": "eslint"
   }
 }
