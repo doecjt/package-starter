@@ -25,6 +25,6 @@
     "pre-commit": "pnpm lint"
   },
   "lint-staged": {
-    "*.ts": "eslint"
+    "src/**/*.ts": "eslint"
   }
 }
