@@ -3,11 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.39.5
   eslint: ^8.42.0
+  husky: ^8.0.3
   typescript: ^5.1.3
 
 devDependencies:
   '@antfu/eslint-config': 0.39.5_tizxnkcvjrb4cldxgwq5h3lj5u
   eslint: 8.42.0
+  husky: 8.0.3
   typescript: 5.1.3
 
 packages:
@@ -1358,6 +1360,12 @@ packages:
       domhandler: 5.0.3
       domutils: 3.1.0
       entities: 4.5.0
+    dev: true
+
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /ignore/5.2.4:
