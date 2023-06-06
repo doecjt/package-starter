@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': ^0.39.5
+  chalk: ^5.2.0
   eslint: ^8.42.0
   lint-staged: ^13.2.2
   simple-git-hooks: ^2.8.1
@@ -9,6 +10,7 @@ specifiers:
 
 devDependencies:
   '@antfu/eslint-config': 0.39.5_tizxnkcvjrb4cldxgwq5h3lj5u
+  chalk: 5.2.0
   eslint: 8.42.0
   lint-staged: 13.2.2
   simple-git-hooks: 2.8.1
