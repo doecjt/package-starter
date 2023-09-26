@@ -17,12 +17,12 @@
   },
   "keywords": [],
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.5",
-    "chalk": "^5.2.0",
-    "eslint": "^8.42.0",
-    "lint-staged": "^13.2.2",
-    "simple-git-hooks": "^2.8.1",
-    "typescript": "^5.1.3"
+    "@antfu/eslint-config": "1.0.0-beta.10",
+    "chalk": "^5.3.0",
+    "eslint": "^8.50.0",
+    "lint-staged": "^13.3.0",
+    "simple-git-hooks": "^2.9.0",
+    "typescript": "^5.2.2"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged",
