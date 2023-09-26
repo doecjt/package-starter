@@ -1,27 +1,26 @@
 {
-  "name": "package-starter",
+  "name": "package-name",
+  "description": "my package",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "type":"module",
   "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
-  "type": "module",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "tsc --watch",
-    "lint": "eslint src --ext .js,.ts --cache",
-    "build": "pnpm clean && tsc",
-    "clean": "rimraf dist"
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "postinstall": "simple-git-hooks"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "keywords": [],
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.10",
     "chalk": "^5.3.0",
     "eslint": "^8.50.0",
     "lint-staged": "^13.3.0",
     "simple-git-hooks": "^2.9.0",
+    "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
   "simple-git-hooks": {

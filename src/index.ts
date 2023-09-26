@@ -1,5 +1,4 @@
-import { add } from './math.js'
+import { add, times } from './utils'
 
-const sum = add(1, 2)
-const root = document.querySelector('#app')
-root && (root.textContent = `${sum}`)
+add(1, 2)
+times(1, 2)
