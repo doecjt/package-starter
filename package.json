@@ -1,11 +1,22 @@
 {
   "name": "package-name",
   "description": "my package",
-  "version": "1.0.0",
+  "license": "MIT",
+  "version": "0.0.0",
   "type":"module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",

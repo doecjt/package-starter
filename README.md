@@ -7,3 +7,7 @@ degit doecjt/package-starter
 ```shell
 pnpm install
 ```
+## CheckList
+author name
+package-name
+README.md
