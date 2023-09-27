@@ -8,6 +8,6 @@ degit doecjt/package-starter
 pnpm install
 ```
 ## CheckList
-author name
-package-name
-README.md
+Change the information in LICENSE
+Change package-name and author etc. in package.json
+Change the information in README.md
