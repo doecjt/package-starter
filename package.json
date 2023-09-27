@@ -1,18 +1,18 @@
 {
   "name": "package-name",
+  "type": "module",
+  "version": "0.0.0",
   "description": "my package",
   "license": "MIT",
-  "version": "0.0.0",
-  "type":"module",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
     }
   },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -39,6 +39,6 @@
     "commit-msg": "node scripts/verifyCommit.js"
   },
   "lint-staged": {
-    "src/**/*": "eslint"
+    "*": "eslint --fix"
   }
 }
